@@ -8,19 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "Study.sublime-project",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 402,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -36,6 +27,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -65,9 +60,10 @@
 	],
 	"file_history":
 	[
+		"/D/FrontEnd/web-projects/study-site/index.html",
+		"/D/FrontEnd/web-projects/study-site/Study.sublime-project",
 		"/D/FrontEnd/web-projects/study-site/styles/style.css",
 		"/D/FrontEnd/web-projects/study-site/styles/style",
-		"/D/FrontEnd/web-projects/study-site/index.html",
 		"/D/FrontEnd/web-projects/study-site/study-site.sublime-project",
 		"/D/FrontEnd/web-projects/test-site/index.html",
 		"/D/FrontEnd/web-projects/test-site/scripts/main.js",
@@ -118,16 +114,15 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Study.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -140,40 +135,8 @@
 						],
 						"settings":
 						{
-							"bs_sintax": "json",
-							"buffer_scroll_name": "a929740e",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "38f830b9",
-							"spell_check": false,
+							"auto_name": "",
+							"bs_sintax": "plain text",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
