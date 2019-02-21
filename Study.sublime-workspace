@@ -8,31 +8,19 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en-US\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Meta examples</title>\n    \n    <meta name=\"author\" content=\"Chris Mills\">\n    <meta name=\"description\" content=\"This is an example page to demonstrate usage of metadata on web pages.\">\n\n    <meta property=\"og:image\" content=\"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png\">\n    <meta property=\"og:description\" content=\"This is an example page to demonstrate usage of metadata on web pages.\">\n    <meta property=\"og:title\" content=\"Metadata; The HTML &lt;head&gt;, on MDN\">\n\n    <link rel=\"Shortcut Icon\" href=\"favicon.ico\" type=\"image/x-icon\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n  </head>\n  <body>\n    <h1>Meta examples</h1>\n\n    <p>Japanese example: ご飯が熱い。</p>\n    <br>\n    <p>Below is a dunamic list. Click anywhere iutside the list to add a new list item. Click an existing list item ti change its text ti somethig else.</p>\n    \n    <script> src=\"script.js\"</script>\n  </body>\n</html>",
-			"file": "/D/FrontEnd/web-projects/example/meta-example.html",
-			"file_size": 874,
-			"file_write_time": 131946862891879565,
+			"file": "/D/FrontEnd/web-projects/text-start/text-start.html",
 			"settings":
 			{
-				"buffer_size": 1011,
+				"buffer_size": 1821,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/FrontEnd/web-projects/example/style.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 154,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/FrontEnd/web-projects/example/script.js",
-			"settings":
-			{
-				"buffer_size": 756,
+				"buffer_size": 2314,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -84,6 +72,9 @@
 	"file_history":
 	[
 		"/D/FrontEnd/web-projects/study-site/index.html",
+		"/D/FrontEnd/web-projects/example/meta-example.html",
+		"/D/FrontEnd/web-projects/example/style.css",
+		"/D/FrontEnd/web-projects/example/script.js",
 		"/D/FrontEnd/web-projects/study-site/style/style.css",
 		"/D/FrontEnd/web-projects/study-site/Study.sublime-project",
 		"/D/FrontEnd/web-projects/study-site/styles/style.css",
@@ -144,31 +135,32 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/FrontEnd/web-projects/example/meta-example.html",
+					"file": "/D/FrontEnd/web-projects/text-start/text-start.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1011,
+						"buffer_size": 1821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								268
+								1242,
+								1242
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "html",
-							"buffer_scroll_name": "93a36d63",
+							"buffer_scroll_name": "89a7c25d",
+							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -176,62 +168,33 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/FrontEnd/web-projects/example/style.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 154,
+						"buffer_size": 2314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								2115,
+								2115
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "css",
-							"buffer_scroll_name": "938287ac",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"bs_sintax": "html",
+							"buffer_scroll_name": "38f830b9",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1289.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/FrontEnd/web-projects/example/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 756,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								756,
-								756
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "ce58cb2b",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
