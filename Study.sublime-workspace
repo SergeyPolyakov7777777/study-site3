@@ -8,19 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/D/FrontEnd/web-projects/text-start/text-start.html",
-			"settings":
-			{
-				"buffer_size": 1821,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2314,
+				"buffer_size": 4791,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -71,7 +62,12 @@
 	],
 	"file_history":
 	[
+		"/D/FrontEnd/web-projects/navigation-menu-start/index.html",
+		"/D/FrontEnd/web-projects/navigation-menu-start/social.html",
+		"/D/FrontEnd/web-projects/navigation-menu-start/projects.html",
+		"/D/FrontEnd/web-projects/navigation-menu-start/pictures.html",
 		"/D/FrontEnd/web-projects/study-site/index.html",
+		"/D/FrontEnd/web-projects/text-start/text-start.html",
 		"/D/FrontEnd/web-projects/example/meta-example.html",
 		"/D/FrontEnd/web-projects/example/style.css",
 		"/D/FrontEnd/web-projects/example/script.js",
@@ -121,7 +117,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -135,52 +131,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/FrontEnd/web-projects/text-start/text-start.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1242,
-								1242
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "89a7c25d",
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2314,
+						"buffer_size": 4791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2115,
-								2115
+								4784,
+								4784
 							]
 						],
 						"settings":
@@ -191,10 +154,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1289.0,
+						"translation.y": 2154.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
