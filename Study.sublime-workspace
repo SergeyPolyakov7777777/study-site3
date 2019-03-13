@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 95269,
+				"buffer_size": 96937,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -111,6 +111,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"; ",
 			"var",
 			">\n"
 		],
@@ -139,15 +140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 95269,
+						"buffer_size": 96937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95170,
-								94770
+								95743,
+								95743
 							]
 						],
 						"settings":
@@ -157,8 +158,8 @@
 							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
-						"translation.x": 224.0,
-						"translation.y": 4777.0,
+						"translation.x": 0.0,
+						"translation.y": 25153.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
