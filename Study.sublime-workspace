@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 96937,
+				"buffer_size": 98502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -140,15 +140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 96937,
+						"buffer_size": 98502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95743,
-								95743
+								98490,
+								98490
 							]
 						],
 						"settings":
@@ -159,7 +159,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 25153.0,
+						"translation.y": 25805.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
