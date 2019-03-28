@@ -303,8 +303,7 @@ for short quotations that don't require paragraph breaks.</q></p>
 	<!--Перенос строки и горизонтальный разделитель-->
  <p>
  	<h2>
- 		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#%D0%9F%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8_%D0%B8_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C"></a>
- 	Перенос строки и горизонтальный разделитель
+ 		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#%D0%9F%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8_%D0%B8_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C">Перенос строки и горизонтальный разделитель</a> 	
  	</h2>
  </p>
 
@@ -312,7 +311,126 @@ for short quotations that don't require paragraph breaks.</q></p>
  	Два элемента, которые Вы будете периодически использовать или захотите узнать о них: 
  	<a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/br" title="Тэг <br> (элемент переноса строки) устанавливает перевод строки в тексте (возврат каретки). Он полезен при написании поэмы или адреса, где важно деление на строки.">&lt;br&gt;</a>
  	 и 
- 	 <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/hr" title="Рисует горизонтальную линию, которая по своему виду зависит от используемых параметров, а также браузера. Тег <hr> относится к блочным элементам, линия всегда начинается с новой строки, а после нее все элементы отображаются на следующей строке."> &lt;hr&gt;</a></p>	
+ 	 <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/hr" title="Рисует горизонтальную линию, которая по своему виду зависит от используемых параметров, а также браузера. Тег <hr> относится к блочным элементам, линия всегда начинается с новой строки, а после нее все элементы отображаются на следующей строке."> &lt;hr&gt;</a>
+ 	</p>
+ 	<p>
+ 		&lt;br&gt; создает разрыв строки в абзаце; это единственный способ изменить жесткую структуру в ситуации, когда Вам нужна серия фиксированных коротких строк, например, в почтовом адресе или стихотворении. Пример:
+ 		<pre>
+ 			<code>
+ 				1|	&lt;p&gt;There once was a girl called Nell&lt;br&gt;
+				2|	Who loved to write HTML&lt;br&gt;
+				3|	But her structure was bad, her semantics were sad&lt;br&gt;
+				4|	and her markup didn't read very well.&lt;/p&gt;
+ 			</code>
+ 		</pre>
+ 	</p>
+ 	<p>Без элемента &lt;br&gt; абзац  разместится в одну длинную линию (как было сказано ранее, 
+ 		<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Whitespace_in_HTML">HTML игнорирует переносы строк</a>
+ 	); с ним в коде разметка будет выглядеть следующим образом:
+ 	</p>
+ 	<p>	
+ 		There once was a girl called Nell<br>
+		Who loved to write HTML<br>
+		But her structure was bad, her semantics were sad<br>
+		and her markup didn't read very well.
+	</p>
+	<p>
+		&lt;hr&gt; создает горизонтальный разделитель в документе, это означает тематическое изменение текста (например, изменение темы или сцены). Визуально он просто похож на горизонтальную линию. В качестве примера:
+	</p>
+	<pre>
+		<code>
+			1| &lt;p&gt;Ron was backed into a corner by the marauding netherbeasts. Scared, but determined to protect 2| his friends, he raised his wand and prepared to do battle, hoping that his distress call had made it through.&lt;/p&lg;
+			3| &lt;hr&gt;
+			4| &lt;p&gt;Meanwhile, Harry was sitting at home, staring at his royalty statement and pondering when the next spin off series would come out, when an enchanted distress letter flew through his window and landed in his lap. He read it hasily, and lept to his feet; "better get back to work then", he mused.&lt;/p&gt;
+		</code>
+	</pre>
+	<p>
+		Будет выглядеть примерно так:
+	</p>
+	<br>
+	<p>
+		Ron was backed into a corner by the marauding netherbeasts. Scared, but determined to protect his friends, he raised his wand and prepared to do battle, hoping that his distress call had made it through.
+	</p>
+	<hr>
+	<p>
+		Meanwhile, Harry was sitting at home, staring at his royalty statement and pondering when the next spin off series would come out, when an enchanted distress letter flew through his window and landed in his lap. He read it hasily and sighed; "better get back to work then", he mused.
+	</p>
+	<hr>
+	
+
+
+	<!-- Планирование простого веб-сайта -->
+	<p>
+		<h1><a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#%D0%9F%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B3%D0%BE_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0">Планирование простого веб-сайта</a></h1>
+	</p>
+	<p>
+		Когда вы уже спланировали содержание одной веб-страницы, следующий логический шаг — продумать содержание всего веб-сайта: какие страницы нужны, как они будут устроены и связаны друг с другом для лучшего восприятия пользователем. Это называется <a href="https://developer.mozilla.org/en-US/docs/Glossary/Information_architecture"> Information architecture</a>. В большом, сложном веб-сайте на планирование может уходить много времени, однако спроектировать простой веб-сайт из нескольких страниц может быть очень легко и весело!
+	</p>
+
+<br>
+
+	<ol>
+		<li>
+			Имейте в виду, что у вас будет несколько элементов, общих для большинства (если не всех) страниц — например, меню навигации и содержимого нижнего колонтитула. Например, для сайта компании хорошая идея — разместить контактные данные в нижнем колонтитуле на каждой странице. Составьте список элементов, общих для всех страниц.
+		<img src="https://mdn.mozillademos.org/files/12423/common-features.png" alt="список элементов" style="border-style: solid; border-width: 1px; display: block; height: 375px; margin: 0px auto; width: 600px;">
+		</li>
+		<li>
+			Теперь набросайте структуру страниц (можно взять за образец наш простой дизайн, приведенный раннее). Что находится в этих блоках?
+			<img src="https://mdn.mozillademos.org/files/12429/site-structure.png" alt="структурa страниц" style="border-style: solid; border-width: 1px; display: block; margin: 0px auto;">
+		</li>
+		<li>
+			Теперь составьте список остальной (уникальной для каждой страницы) информации, которую вы разместите на сайте.
+			<img src="https://mdn.mozillademos.org/files/12425/feature-list.png" alt="список остальной (уникальной для каждой страницы) информации" style="border-style: solid; border-width: 1px; display: block; margin: 0px auto;">
+		</li>
+		<li>
+			Составьте карту сайта. Обведите каждую страницу рамкой, и продумайте перемещения пользователя между ними. Обычно в центре оказывается главная страница, с которой можно быстро перейти на все остальные. На небольшом сайте большинство страниц помещают в главную навигацию, но не обязательно класть туда все ссылки. Также можете пометить, как выглядят элементы страниц — ссылками, списками, карточками.
+			<img src="https://mdn.mozillademos.org/files/12427/site-map.png" alt="карта сайта" style="border-style: solid; border-width: 1px; display: block; margin: 0px auto;">
+		</li>
+	</ol>
+	<br>
+
+<!--Активное обучение: создайте свою карту сайта-->
+	<p>
+		<h2><a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#Active_learning_create_your_own_sitemap">Активное обучение: создайте свою карту сайта</a></h2>
+	</p>
+	<p>
+		Приментие наш метод к своему сайту. О чем он будет?
+	</p>
+	<hr size=5 color=555>
+	<hr style="border-style: solid; border-width: 10px; color: red">
+
+
+	<!-- Заключение -->
+	<p>
+		<h1><a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#%D0%97%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">Заключение</a></h1>
+	</p>
+	<p>
+		Вы лучше понимаете, как структурировать веб-страницу или сайт. В последней статье этого модуля мы узнаем, как отлаживать HTML.
+	</p>
+	<hr style="border-style: solid; border-width: 4px; color: #3D7E9A">
+
+	<!-- Дополнительные материалы -->
+	<p>
+		<h1>
+			<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B8_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82%D0%B0#%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B">Дополнительные материалы
+			</a>
+		</h1>
+	</p>
+	<p>
+		<ul>
+			<li>
+				<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines">Using HTML sections and outlines:</a> Продвинутый справочник по семантическим элементам и алгоритму выделения разделов (outline algorithm) в HTML5
+			</li>
+		</ul>
+	</p>
+	<p><button>Кнопка</button></p>
+
+
+
+
+
+
+	
 
 
 

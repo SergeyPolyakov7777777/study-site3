@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"bor",
+				"border-width\tproperty"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +15,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 109646,
+				"buffer_size": 117072,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -141,15 +145,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 109646,
+						"buffer_size": 117072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109638,
-								109638
+								117052,
+								117052
 							]
 						],
 						"settings":
@@ -160,7 +164,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 29957.0,
+						"translation.y": 33845.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
