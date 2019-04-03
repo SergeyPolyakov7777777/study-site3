@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
 				"bor",
 				"border-width\tproperty"
 			]
@@ -15,7 +23,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 117072,
+				"buffer_size": 123083,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -66,6 +74,7 @@
 	],
 	"file_history":
 	[
+		"/D/FrontEnd/web-projects/debug-example/debug-example.html",
 		"/D/FrontEnd/web-projects/document_and_website_structure/index.html",
 		"/D/FrontEnd/web-projects/study-site/index.html",
 		"/D/FrontEnd/web-projects/advanced-text-formatting/other-semantics.html",
@@ -145,15 +154,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 117072,
+						"buffer_size": 123083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117052,
-								117052
+								92,
+								63
 							]
 						],
 						"settings":
@@ -164,7 +173,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 33845.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

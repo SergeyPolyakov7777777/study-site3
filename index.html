@@ -422,9 +422,110 @@ for short quotations that don't require paragraph breaks.</q></p>
 				<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines">Using HTML sections and outlines:</a> Продвинутый справочник по семантическим элементам и алгоритму выделения разделов (outline algorithm) в HTML5
 			</li>
 		</ul>
-	</p>
-	<p><button>Кнопка</button></p>
+	<!-- </p>
+	<p  style="text-align: left;"><button>Кнопка</button></p>
+	<p  style="text-align: center;"><button>Кнопка</button></p>
+	<p  style="text-align: right;"><button>Кнопка</button></p>
+	<p><button><a href="https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting">Назад</a></button></p>
 
+	<!--<div style="text-align: center;">-->
+	<!-- 		<form action="https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting" style="text-align: left;">
+    	<button type="submit">Назад</button>
+			</form> -->
+
+	<!--</div>--> -->
+
+			<form action="https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/	Advanced_text_formatting" >
+    	<button type="submit" style="text-align: center;">Назад</button>
+			</form>	
+			<form action="https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/	Advanced_text_formatting" >
+    	<button type="submit" style="text-align: center;">Назад</button>
+			</form>	
+
+			<hr style="border-style: solid; border-width: 8px; color: #3D7E9A">
+			<br>
+			<br>
+
+
+<!-- Отладка HTML -->
+<p>
+	<h1><em>
+		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/Debugging_HTML">Отладка HTML
+		</a>
+</em></h1>
+</p>			
+<p>
+	Написать HTML — здорово, но как понять, где ошибка, когда что-то не работает? В этой статье описаны несколько инструментов, которые помогают искать и исправлять ошибки в HTML.
+</p>
+
+<hr style="border-style: solid; border-width: 4px; color: #3D7E9A">
+
+
+<!-- Отладка — это не страшно -->
+<p>
+	<h2>
+		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/Debugging_HTML#%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0_%E2%80%94_%D1%8D%D1%82%D0%BE_%D0%BD%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%BE">Отладка — это не страшно</a>
+	</h2>
+</p>
+<p>
+	Во время написания какого-нибудь кода, обычно все идет хорошо, пока не появляется тот момент, когда вы совершаете ошибку. Итак, ваш код не работает, или работает не так, как вы задумывали. Если вы попытаетесь скомпилировать неработающую программу на языке <a href="https://www.rust-lang.org/">Rust</a>, компилятор укажет на ошибку:
+</p>
+<p>
+	<img src="https://mdn.mozillademos.org/files/12435/error-message.png" alt="компилятор укажет на ошибку">
+</p>
+<p>
+	В данном случае, сообщение об ошибке понять относительно просто — "unterminated double quote string". Если вы внимательно посмотрите на println!(Hello, world!"); , то заметите, что здесь отсутсвует двойная кавычка. Разумеется, сообщения об ошибках могут становиться куда более сложными для понимания по мере роста вашего кода, и даже самые простые случаи могут показаться пугающими для тех, кто ничего не знает о Rust.
+</p>
+<br>
+<p>
+	Но не бойтесь отладки! Чтобы комфортно писать и отлаживать любой код, нужно понимать язык и его инструменты.
+</p>
+<hr style="border-style: solid; border-width: 4px; color: #3D7E9A">
+<!-- HTML и отладка -->
+<p>
+	<h2>
+		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/Debugging_HTML#HTML_%D0%B8_%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0">HTML и отладка</a>
+	</h2>
+</p>
+<p>
+	HTML не так сложен к пониманию, как Rust. HTML не компилируется в какую-либо другую форму перед тем, как браузер проанализирует это и покажет результат (он является интерпретируемым, а не компилируемым). Синтаксис HTML элементов  намного понятнее, чем у "настоящих языков программирования", таких как Rust, JavaScript, или Python. Способ, которым браузеры читают HTML более толерантен, чем у языков программирования, интерпретирующих свой код строже. Это одновременно и плохо, и хорошо.
+</p>
+<br>
+
+<!-- Толерантный код -->
+<p>
+	<h3>
+		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/Debugging_HTML#%D0%A2%D0%BE%D0%BB%D0%B5%D1%80%D0%B0%D0%BD%D1%82%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B4">Толерантный код</a>
+	</h3>
+</p>
+<p>
+	Так что же означает толерантный? В общих чертах, когда вы напортачили в коде, есть два типа ошибок, с которыми вы столкнетесь:
+</p>
+<ul>
+	<li><strong>Синтаксические ошибки (Syntax errors):</strong>Это ошибки в правильности написания, как это было выше, в примере с Rust. Такие обычно легко исправлять, в той мере, в какой вы знакомы с синтаксисом языка и знаете, что означают сообщения об ошибках.</li>
+	<li><strong>Логические ошибки (Logic errors):</strong>Это ошибки, появляющиеся в том случае, если синтаксис корректен, но код не выполняет своего предназначения, то есть программа выполняется неверно. Такие исправлять сложнее, чем синтаксические, поскольку не выводится сообщений, указывающих место, где вы ошиблись.</li>	
+</ul>
+<p>
+	HTML не страдает от синтаксических ошибок, потому что браузер читает код толерантно, в том смысле, что страницы могут отображаться даже если синтаксические ошибки присутсвуют. Браузеры имеют встроенные правила по интерпретации неверно написанной разметки, и вы можете запустить что-либо, даже если вы имели в виду другое. Это может стать настоящей проблемой!
+</p>
+<br>
+
+<!-- Валидация HTML -->
+<p>
+	<h2>
+		<a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML/Debugging_HTML#%D0%92%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D1%8F_HTML">Валидация HTML</a>
+	</h2>
+</p>
+<p>
+	Из примера выше ясно, что стоит проверять валидность HTML. В простом примере сверху можно просто просмотреть весь код и найти ошибки, но как быть с огромными, сложными страницами?
+</p>
+<p>
+	Лучше всего проверить страницу в  <a href="https://validator.w3.org/"> сервисе валидации разметки</a>. Его создал и поддерживает W3C — организация, которая занимается спецификациями HTML, CSS и других веб-технологий. Сервис проверит ваш HTML и составит отчет по ошибкам в нем.
+</p>
+<img src="https://mdn.mozillademos.org/files/12441/validator.png" alt="W3C">
+<p>
+	HTML можно проверить по адресу, загрузив файл или просто скоприовав на страницу.
+</p>
 
 
 
